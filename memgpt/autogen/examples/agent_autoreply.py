@@ -25,7 +25,7 @@ config_list = [
 # If USE_MEMGPT is True, then we swap out the "coder" agent with a MemGPT agent
 USE_MEMGPT = True
 
-llm_config = {"config_list": config_list, "seed": 42}
+llm_config = {"config_list": config_list, "seed": 44}
 
 # The user agent
 user_proxy = autogen.UserProxyAgent(
